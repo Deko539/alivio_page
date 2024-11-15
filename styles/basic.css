@@ -4,6 +4,53 @@
 
 body {
     margin: 0;
-    padding: 0;
     font-family: "Lato", sans-serif;
+    background-color: var(--co-white-bg);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 81px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.btn {
+    background-color: var(--co-green);
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--co-white);
+    outline: none;
+    width: 185px;
+    height: 50px;
+    font-family: inherit;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    outline: 2px solid var(--co-green-dark);
+    cursor: pointer;
+}
+
+.btn-sign-in {
+    background-color: transparent;
+    color: var(--co-black);
 }
